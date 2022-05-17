@@ -6,6 +6,8 @@ The file is then converted into a string and then parsed into an html file.
 
 Based on the template from the txt file, the user is able to create a multiple choice form, a written answer form, a mixed form, and hopefully other varieties of forms moving forward. 
 
+You can view the project website at https://rb.gy/5tutt3
+
 # The following is the template used and can be used with most common text files:
 
       title:
