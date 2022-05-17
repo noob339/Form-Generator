@@ -56,7 +56,7 @@ std::string form::getHTML(std::string action, std::string method)
 {
     std::string titleText = getTitle();
 
-    std::string html = "<!DOCTYPE html> \n<html> \n<head> \n \t <link href=\"idk.css\" rel=\"stylesheet\" type=\"text/css\"> \n</head>\n";
+    std::string html = "<!DOCTYPE html> \n<html> \n<head> \n \t <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\"> \n</head>\n";
     html += "<center> \n<div class = \"header\"> \n<h2>" + titleText + "</h2> \n</div> \n<form action=\"/" + action + "\" method=\"" + method + "\"> \n<ul class= \"no-bullets\">\n";
 
     for(int i = 0; i < questions.size(); i++)
