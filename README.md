@@ -1,4 +1,4 @@
-# HonorsProject
+# Form Generator
 
 This project allows us to automatically generate a form from a file, and in this case I am using a txt file.
 
@@ -6,7 +6,7 @@ The file is then converted into a string and then parsed into an html file.
 
 Based on the template from the txt file, the user is able to create a multiple choice form, a written answer form, a mixed form, and hopefully other varieties of forms moving forward. 
 
-# The following is the template used:
+# The following is the template used and can be used with most common text files:
 
 title:
 
@@ -101,10 +101,15 @@ answer: - There could be multiple answers depending on the format of the quiz, f
 
 # Challenges
 Learning to use the httplib server library and effectively implement a server to serve and handle requests
+
 Learning to use a step through debugger to be able to pinpoint the bugs in my program
+
 Learning to use Google Sites to showcase my site
+
 Designing a UML and flowchart for my program
+
 Parsing the text inside the string in order to get the right data in its corresponding fields to generate the form
+
 Learning CSS and HTML
 
 # Future Direction
