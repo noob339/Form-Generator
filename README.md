@@ -8,8 +8,7 @@ Based on the template from the txt file, the user is able to create a multiple c
 
 # The following is the template used and can be used with most common text files:
 
-title:
-
+      title:
       question:SA/MP
       prompt: 
       answer:
