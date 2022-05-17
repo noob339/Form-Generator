@@ -1,4 +1,4 @@
-# HonorsProject1
+# HonorsProject
 
 This project allows us to automatically generate a form from a file, and in this case I am using a txt file.
 
@@ -6,7 +6,7 @@ The file is then converted into a string and then parsed into an html file.
 
 Based on the template from the txt file, the user is able to create a multiple choice form, a written answer form, a mixed form, and hopefully other varieties of forms moving forward. 
 
-The following is the template used:
+#The following is the template used:
 
 title:
 
@@ -30,7 +30,7 @@ answer: - There could be multiple answers depending on the format of the quiz, f
 @ - This symbol is used to denote the correct answer for the multiple choice question
 
 
-Below is an Example of the program
+#Below is an Example of the program
 
       title: Climate Change Quiz
 
@@ -94,12 +94,31 @@ Below is an Example of the program
       @answer: False
       
       
-Below are the results when running the program through a server
+#Below are the results when running the program through a server
 
 
 ![Screen Shot 2022-05-16 at 10 09 53 PM](https://user-images.githubusercontent.com/88294617/168714010-80910532-9128-4cd7-8faa-033281635ec9.png)
 
+#Challenges
+Learning to use the httplib server library and effectively implement a server to serve and handle requests
+Learning to use a step through debugger to be able to pinpoint the bugs in my program
+Learning to use Google Sites to showcase my site
+Designing a UML and flowchart for my program
+Parsing the text inside the string in order to get the right data in its corresponding fields to generate the form
+Learning CSS and HTML
 
-While the css is not being generated, the HTML is and that will be part of the next step, generating the CSS page and abstracting the template for users to builder their forms online.
+#Future Direction
+Generating the CSS page and abstracting the template for users to builder their forms online.
+
+Add more functuonality to the form site by adding features such as a name, email, and date field. 
+
+Store the scores on a database to collect and analyze data such as the average score, etc
+
+#How to locally build and run
+1. clone the repository into a directory
+2. from the terminal, run make
+3. then run ./formHonors > index.html (this will be refactored later)
+4. then go to http://127.0.0.1:8080/ 
+
 
 
