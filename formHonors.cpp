@@ -7,33 +7,41 @@
 #include <string>
 #include "form.hpp"
 
-//For honors project - implementation files, website, video, slides?, UML, flowchart
+//For honors project - website, video, UML, flowchart
 
 int main()
 {
     httplib::Server svr;
     
-    form form1;
-    std::string fileData = readFile("MisinfoSurvey.txt");
-    form1.buildFromString(fileData); 
-
-    bool staticServer = svr.set_mount_point("/", "./");
-
-    svr.Get("/option", [](const auto &req, auto &res) {
-
-        form form;
+    try
+    {
+        form form1;
         std::string fileData = readFile("MisinfoSurvey.txt");
-        form.buildFromString(fileData); 
+        form1.buildFromString(fileData); 
 
-        std::string responseHTML = form.htmlGradedResponse(req).htmlGradingOutput;
-        res.set_content(responseHTML, "text/html");
-     });
+        bool staticServer = svr.set_mount_point("/", "./");
 
-    std::cout << form1.getHTML("option", "GET") << std::endl; 
-    svr.listen("0.0.0.0", 8080);
+        svr.Get("/option", [](const auto &req, auto &res) {
+
+            form form;
+            std::string fileData = readFile("MisinfoSurvey.txt");
+            form.buildFromString(fileData); 
+
+            std::string responseHTML = form.htmlGradedResponse(req).htmlGradingOutput;
+            res.set_content(responseHTML, "text/html");
+         });
+
+        std::cout << form1.getHTML("option", "GET") << std::endl; 
+        svr.listen("0.0.0.0", 8080);
+    }
+    catch(...)
+    {
+        std::cout << "Default exception caught\n";
+    }
+    
+    
     return 0;
 }
-
 
 
 
