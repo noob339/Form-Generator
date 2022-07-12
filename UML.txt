@@ -1,0 +1,87 @@
+____________________________
+int main()
+
+____________________________
+Answer
+
+std::string answerText
+
+answer(); 
+answer(std::string answerText);  
+void setAnswerText(std::string answerText);
+std::string getAnswerText();
+virtual const std::string getHTML(const std::string &questionText) const = 0; 
+long getAnswerTextHash() const;
+
+
+____________________________
+form
+
+std::vector<Question*> questions; 
+std::deque<multipleChoiceQuestion> mpQuestions;
+std::deque<shortChoiceQuestion> saQuestions;
+std::string titleText;
+
+form(); 
+void buildFromString(std::string &file);
+void pushMPChoice(std::string file, size_t &index);
+void pushSAChoice(std::string file, size_t &index);
+std::string getHTML(std::string action, std::string method);
+struct gradingRecord
+gradingRecord htmlGradedResponse(const auto &req);
+   
+
+
+____________________________
+multipleChoiceAnswer
+
+multipleChoiceAnswer(); 
+multipleChoiceAnswer(const std::string answerText); 
+const std::string getHTML(const std::string &questionText) const;
+____________________________
+multipleChoiceQuestion
+
+std::deque <multipleChoiceAnswer> mpAnswers; 
+int position = -1;
+
+void push(multipleChoiceAnswer answer);       
+multipleChoiceQuestion(const std::string &file, size_t &index);
+const multipleChoiceAnswer& correctAnswer() const;
+       
+____________________________
+Question
+
+friend class form;
+std::vector<answer*> answers; 
+std::string promptText; 
+
+std::string getHTML() const noexcept;
+const std::string& getPrompt() const noexcept;
+
+____________________________
+shortChoiceAnswer
+
+shortChoiceAnswer(); 
+shortChoiceAnswer(const std::string answerText); //constructer accepts a string, the answerText
+const std::string getHTML(const std::string &questionText) const;
+____________________________
+shortChoiceQuestion
+
+std::deque <shortChoiceAnswer> scAnswers; 
+
+shortChoiceQuestion(const std::string &file, size_t &index);
+void push(shortChoiceAnswer answer);
+
+____________________________
+index.html 
+
+MisinfoSurvey.txt 
+
+idk.css 
+
+Makefile
+
+httplib.h
+
+main.cpp
+

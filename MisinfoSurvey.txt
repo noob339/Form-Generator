@@ -1,0 +1,100 @@
+
+title: Prof Azhar only gives A
+
+question:MP
+prompt: Is the rapper Hooly Bandz also known as Julio marte
+@answer: True
+answer: False 
+
+
+question:MP
+prompt: The following gases are not GHGs: nitrous oxide (N2O), methane (CH4), water vapor (H20) and chlorofluorocarbons (CFCs) such as carbon dioxide.
+answer: True
+@answer: False
+
+
+question:MP
+prompt: Human activities are responsible for climate change 
+@answer: True
+answer: False
+
+
+question:MP
+prompt: Climate change has an adverse effect of the environment and the species living in it?
+@answer: True
+answer: False
+
+
+question:MP
+prompt: Climate change is not harmful and is a natural process of earth itself 
+answer: True
+@answer: False
+
+
+question:MP
+prompt: Humans themselves created greenhouse gases
+@answer: True
+answer: False
+
+
+question:MP
+prompt: If we continue emitting green house gases without any stop then irreversible damage to earth’s atmosphere and environment across several regions
+@answer: True
+answer: False
+
+
+question:MP
+prompt: The United States has contributed more GHG emissions than any other country.
+@answer: True
+answer: False
+
+
+question:MP
+prompt: The term global warming was changed to climate change in an effort to account for the varying extreme weathers as a result from the overall global warming
+@answer: True
+answer: False
+
+
+question:MP
+prompt: Only leaders, politicians and head of states can impact climate change in positive or negative ways
+answer: True
+@answer: False
+
+question:MP
+prompt: Will Euri be a millionaire and perhaps billionaire
+answer: True
+@answer: False
+
+question:MP
+prompt: I will visit atleast 80 countries in my lifetime
+answer: false
+@answer: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

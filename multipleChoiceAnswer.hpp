@@ -12,4 +12,5 @@ class multipleChoiceAnswer : public answer
         multipleChoiceAnswer(const std::string answerText); //constructer accepts a string, the answerText
         const std::string getHTML(const std::string &questionText) const;
         
+        
 };

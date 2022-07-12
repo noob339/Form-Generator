@@ -16,7 +16,6 @@ class multipleChoiceQuestion : public Question
 
     public:
         void push(multipleChoiceAnswer answer);
-
         //constructer of mpQuestions
         multipleChoiceQuestion(const std::string &file, size_t &index);
        

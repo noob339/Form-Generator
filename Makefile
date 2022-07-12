@@ -14,10 +14,7 @@ multipleChoiceAnswer.o: multipleChoiceAnswer.cpp multipleChoiceAnswer.hpp answer
 multipleChoiceQuestion.o: multipleChoiceQuestion.cpp multipleChoiceQuestion.hpp Question.hpp answer.hpp 
 shortChoiceAnswer.o: shortChoiceAnswer.cpp shortChoiceAnswer.hpp answer.hpp
 shortChoiceQuestion.o: shortChoiceQuestion.cpp shortChoiceQuestion.hpp Question.hpp answer.hpp 
-.PHONY: test test2 clean 
+.PHONY: clean 
   
-test: default
-	./
-
 clean:
-	rm *.o look-for 
+	rm *.o formHonors 

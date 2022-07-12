@@ -1,0 +1,2 @@
+g++ -g -Wall -fpermissive -std=c++20 -pthread -fsanitize=address,undefined   -c -o formHonors.o formHonors.cpp
+g++ -g -Wall -fpermissive -std=c++20 -pthread -fsanitize=address,undefined   -c -o form.o form.cpp
