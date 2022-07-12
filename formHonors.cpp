@@ -35,7 +35,9 @@ int main()
      });
 
         std::cout << form1.getHTML("option", "GET") << std::endl; 
-        svr.listen("0.0.0.0", 8080);
+        svr.listen("0.0.0.0", 80);
+	std::cerr << "server succesfully started listening on port 80" << std::endl;
+	
     }
     catch(std::out_of_range &error)
     {
@@ -45,7 +47,6 @@ int main()
     
     return 0;
 }
-
 
 
 
