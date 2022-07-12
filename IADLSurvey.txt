@@ -1,0 +1,59 @@
+title: LAWTON - BRODY IADL
+
+question:MP
+prompt: Ability to Use Telephone
+answer: Operates telephone on own initiative-looks up and dials numbers, etc.
+answer: Dials a few well-known numbers
+answer: Answers telephone but does not dial
+answer: Does not use telephone at all
+
+question:MP
+prompt: Shopping
+answer: Takes care of all shopping needs independently
+answer: Shops independently for small purchases
+answer: Needs to be accompanied on any shopping trip
+answer: Completely unable to shop
+
+question:MP
+prompt: Food Preparation
+answer: Plans, prepares and serves adequate meals independently
+answer: Prepares adequate meals if supplied with ingredients
+answer: Heats, serves and prepares meals, or prepares meals, or prepares meals but does not maintain adequate diet
+answer: Needs to have meals prepared and served
+
+question:MP
+prompt: Housekeeping 
+answer: Maintains house alone or with occasional assistance (e.g. "heavy work domestic help")
+answer: Performs light daily tasks such as dish washing, bed making
+answer: Performs light daily tasks but cannot maintain acceptable level of cleanliness
+answer: Needs help with all home maintenance tasks
+answer: Does not participate in any housekeeping tasks 
+
+question:MP
+prompt: Laundry
+answer: Does personal laundry completely
+answer: Launders small items-rinses stockings, etc.
+answer: All laundry must be done by others
+
+
+question:MP
+prompt: Mode of Transportation
+answer: Travels independently on public transportation or drives own car
+answer: Arranges own travel via taxi, but does not otherwise use public transportation
+answer: Travels on public transportation when accompanied by another
+answer: Travel limited to taxi or automobile with assistance of another
+answer: Does not travel at all
+
+question:MP
+prompt: Responsibility for Own Medications
+answer: Is responsible for taking medication in correct dosages at correct time
+answer: Takes responsibility if medication is prepared in advance in separate dosage 
+answer: Is not capable of dispensing own medication
+
+
+question:MP
+prompt: Ability to Handle Finances
+answer: Manages financial matters independently (budgets, writes checks, pays rent, bills, goes to bank), collects and keeps track of income
+answer: Manages day-to-day purchases, but needs help with banking, major purchases, etc.
+answer: Incapable of handling money
+

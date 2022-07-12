@@ -1,8 +1,9 @@
 CC = g++ 
 CXX = g++
 INCLUDES = 
-CFLAGS = -g -fpermissive -std=c++20 -pthread 
-CXXFLAGS = -g -fpermissive -std=c++20 -pthread
+LDFLAGS = -pthread
+CFLAGS = -g -fpermissive -std=c++2a -pthread 
+CXXFLAGS = -g -fpermissive -std=c++2a -pthread
 APP_CPPFLAGS += 
 default: formHonors
 formHonors: form.o Question.o answer.o multipleChoiceAnswer.o multipleChoiceQuestion.o shortChoiceAnswer.o shortChoiceQuestion.o formHonors.o
